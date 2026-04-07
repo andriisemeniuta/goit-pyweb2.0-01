@@ -1,9 +1,43 @@
+from abc import ABC, abstractmethod
 import pickle
 from collections import UserDict
 from datetime import datetime, timedelta
 from pathlib import Path
 
 file_path = Path("database.bin")
+
+class View(ABC):
+    @abstractmethod
+    def show_message(self, message):
+        pass
+
+    @abstractmethod
+    def show_all(self, book):
+        pass
+
+    @abstractmethod
+    def show_birthdays(self, birthdays):
+        pass
+
+class ConsoleView(View):
+    def show_message(self, message):
+        print(message)
+
+    def show_all(self, book):
+        if not book.data:
+            print("kniga pusta")
+        else:
+            for record in book.data.values():
+                print(record)
+
+    def show_birthdays(self, birthdays):
+        if not birthdays:
+            print("Нет ближайших дней рождения")
+        else:
+            for day in birthdays:
+                print(f"{day['name']}: {day['congratulation_date']}")
+
+
 
 
 class Field:
@@ -211,49 +245,50 @@ def load_data():
 
 def main():
     book = load_data()
-    print("Welcome to the assistant bot!")
+    view = ConsoleView()
+
+    view.show_message("Welcome to the assistant bot!")
+    
     while True:
         user_input = input("Enter a command: ")
         command, *args = parse_input(user_input)
 
         if command in ["close", "exit"]:
-            print("Good bye!")
+            view.show_message("Good bye")
             with open(file_path, "wb") as file:
                 pickle.dump(book, file)
             break
 
         elif command == "hello":
-            print("How can I help you?")
+            view.show_message("How can I help you?")
 
         elif command == "add":
-            print(add_contact(args, book))
+            result = add_contact(args, book)
+            view.show_message(result)
 
         elif command == "change":
-            print(change_contact(args, book))
+            result = change_contact(args, book)
+            view.show_message(result)
 
         elif command == "phone":
-            print(show_phone(args, book))
+            result = show_phone(args, book)
+            view.show_message(result)
 
         elif command == "all":
-            print(show_all(book))
+            view.show_all(book)
 
         elif command == "add-birthday":
-            print(add_birthday(args, book))
+            result = add_birthday(args, book)
+            view.show_message(result)
 
         elif command == "show-birthday":
-            print(show_birthday(args, book))
+            result = show_birthday(args, book)
+            view.show_message(result)
 
         elif command == "birthdays":
             birthdays = book.get_upcoming_birthdays()
-            if not len(birthdays):
-                print("There are no upcoming birthdays.")
-                continue
-            for day in birthdays:
-                print(f"{day}")
-
-        else:
-            print("Invalid command.")
-
+            view.show_birthdays(birthdays)
+        
 
 if __name__ == "__main__":
     main()
