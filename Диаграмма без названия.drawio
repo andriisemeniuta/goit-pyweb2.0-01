@@ -19,10 +19,10 @@
         <mxCell id="lPl-oGk3gzeomKMZeMNr-17" parent="1" style="html=1;verticalAlign=top;rounded=0;fontStyle=0;align=center;fontColor=default;labelBackgroundColor=none;" value="&lt;span style=&quot;caret-color: rgb(91, 182, 163);&quot;&gt;Name&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;caret-color: rgb(91, 182, 163);&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="78" y="260" as="geometry" />
         </mxCell>
-        <mxCell id="lPl-oGk3gzeomKMZeMNr-19" parent="1" style="whiteSpace=wrap;html=1;verticalAlign=top;rounded=0;fontStyle=0;" value="" vertex="1">
+        <mxCell id="lPl-oGk3gzeomKMZeMNr-19" parent="1" style="whiteSpace=wrap;html=1;verticalAlign=top;rounded=0;fontStyle=0;" value="Phone&lt;div&gt;value&lt;/div&gt;&lt;div&gt;value(setter)&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="345" y="260" as="geometry" />
         </mxCell>
-        <mxCell id="lPl-oGk3gzeomKMZeMNr-21" parent="1" style="whiteSpace=wrap;html=1;verticalAlign=top;rounded=0;fontStyle=0;" value="" vertex="1">
+        <mxCell id="lPl-oGk3gzeomKMZeMNr-21" parent="1" style="whiteSpace=wrap;html=1;verticalAlign=top;rounded=0;fontStyle=0;" value="Birthday&lt;div&gt;date&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="590" y="260" as="geometry" />
         </mxCell>
       </root>
