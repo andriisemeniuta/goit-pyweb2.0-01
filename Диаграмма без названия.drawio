@@ -1,11 +1,29 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Страница-1" id="gYY5bqe9yFdaYwAMFfXa">
-    <mxGraphModel dx="778" dy="518" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="934" dy="622" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="lPl-oGk3gzeomKMZeMNr-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0;verticalAlign=top;" value="Field&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;value&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;__str__()&lt;/div&gt;" vertex="1">
-          <mxGeometry height="80" width="130" x="190" y="110" as="geometry" />
+        <mxCell id="lPl-oGk3gzeomKMZeMNr-18" edge="1" parent="1" source="lPl-oGk3gzeomKMZeMNr-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="lPl-oGk3gzeomKMZeMNr-17" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lPl-oGk3gzeomKMZeMNr-20" edge="1" parent="1" source="lPl-oGk3gzeomKMZeMNr-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="lPl-oGk3gzeomKMZeMNr-19" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lPl-oGk3gzeomKMZeMNr-22" edge="1" parent="1" source="lPl-oGk3gzeomKMZeMNr-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="lPl-oGk3gzeomKMZeMNr-21" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lPl-oGk3gzeomKMZeMNr-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0;verticalAlign=top;" value="Field&lt;div&gt;value&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;__str__()&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="130" x="340" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="lPl-oGk3gzeomKMZeMNr-17" parent="1" style="html=1;verticalAlign=top;rounded=0;fontStyle=0;align=center;fontColor=default;labelBackgroundColor=none;" value="&lt;span style=&quot;caret-color: rgb(91, 182, 163);&quot;&gt;Name&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;caret-color: rgb(91, 182, 163);&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="78" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="lPl-oGk3gzeomKMZeMNr-19" parent="1" style="whiteSpace=wrap;html=1;verticalAlign=top;rounded=0;fontStyle=0;" value="" vertex="1">
+          <mxGeometry height="60" width="120" x="345" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="lPl-oGk3gzeomKMZeMNr-21" parent="1" style="whiteSpace=wrap;html=1;verticalAlign=top;rounded=0;fontStyle=0;" value="" vertex="1">
+          <mxGeometry height="60" width="120" x="590" y="260" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
