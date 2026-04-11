@@ -40,6 +40,7 @@ class ConsoleView(View):
 
 
 
+
 class Field:
     def __init__(self, value):
         self.value = value
@@ -246,6 +247,9 @@ def load_data():
 def main():
     book = load_data()
     view = ConsoleView()
+
+
+    
 
     view.show_message("Welcome to the assistant bot!")
     
