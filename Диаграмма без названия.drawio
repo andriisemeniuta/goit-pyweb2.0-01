@@ -89,6 +89,14 @@
         <mxCell id="lPl-oGk3gzeomKMZeMNr-65" parent="1" style="whiteSpace=wrap;html=1;verticalAlign=top;rounded=0;fontStyle=0;" value="property getter&lt;div&gt;property setter&lt;/div&gt;" vertex="1">
           <mxGeometry height="40" width="120" x="270" y="330" as="geometry" />
         </mxCell>
+        <mxCell id="3SJbrGfwybPFazfpYGJO-14" edge="1" parent="1" source="lPl-oGk3gzeomKMZeMNr-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;endArrow=diamond;endFill=1;endSize=7;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-350" y="260.17647058823513" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3SJbrGfwybPFazfpYGJO-16" edge="1" parent="1" source="lPl-oGk3gzeomKMZeMNr-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=diamond;endFill=0;" target="3SJbrGfwybPFazfpYGJO-15" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="lPl-oGk3gzeomKMZeMNr-67" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="&lt;div style=&quot;text-align: left;&quot;&gt;name: Name&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;phones: list&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;birthday: Birthday&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="210" x="-170" y="230" as="geometry" />
         </mxCell>
@@ -100,6 +108,15 @@
         </mxCell>
         <mxCell id="3SJbrGfwybPFazfpYGJO-12" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="&lt;p style=&quot;margin: 0px; font-style: normal; font-variant-caps: normal; font-width: normal; line-height: normal; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-variant-emoji: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;AddressBook&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; font-style: normal; font-variant-caps: normal; font-width: normal; line-height: normal; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-variant-emoji: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;(UserDict)&lt;/font&gt;&lt;/p&gt;" vertex="1">
           <mxGeometry height="60" width="200" x="-170" y="-90" as="geometry" />
+        </mxCell>
+        <mxCell id="3SJbrGfwybPFazfpYGJO-17" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;endArrow=diamond;endFill=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-290" y="260" as="sourcePoint" />
+            <mxPoint x="-170" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3SJbrGfwybPFazfpYGJO-15" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="main()" vertex="1">
+          <mxGeometry height="60" width="125" x="-415" y="230" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
