@@ -1,14 +1,11 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Страница-1" id="gYY5bqe9yFdaYwAMFfXa">
-    <mxGraphModel dx="1761" dy="622" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1629" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="lPl-oGk3gzeomKMZeMNr-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0;verticalAlign=top;" value="Field&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="30" width="130" x="250" y="100" as="geometry" />
-        </mxCell>
-        <mxCell id="3SJbrGfwybPFazfpYGJO-2" edge="1" parent="1" source="lPl-oGk3gzeomKMZeMNr-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="3SJbrGfwybPFazfpYGJO-1" value="">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="lPl-oGk3gzeomKMZeMNr-17" parent="1" style="html=1;verticalAlign=top;rounded=0;fontStyle=0;align=center;fontColor=default;labelBackgroundColor=none;" value="&lt;span style=&quot;caret-color: rgb(91, 182, 163);&quot;&gt;Name&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;caret-color: rgb(91, 182, 163);&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="30" width="120" x="80" y="270" as="geometry" />
@@ -64,11 +61,8 @@
         <mxCell id="lPl-oGk3gzeomKMZeMNr-67" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="&lt;div style=&quot;text-align: left;&quot;&gt;name: Name&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;phones: list&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;birthday: Birthday&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="210" x="-170" y="230" as="geometry" />
         </mxCell>
-        <mxCell id="lPl-oGk3gzeomKMZeMNr-69" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="__init__(name:str)&lt;div&gt;add_phone(phone_number: str)&lt;/div&gt;&lt;div&gt;remove_phone(phone_number: str)&lt;/div&gt;&lt;div&gt;edit_phone(old_number, new_number)&lt;/div&gt;&lt;div&gt;add_birthday(birthday: str)&lt;/div&gt;&lt;div&gt;__str__(): str&lt;/div&gt;" vertex="1">
+        <mxCell id="lPl-oGk3gzeomKMZeMNr-69" parent="1" style="whiteSpace=wrap;html=1;rounded=0;align=left;" value="__init__(name:str)&lt;div&gt;add_phone(phone_number: str)&lt;/div&gt;&lt;div&gt;remove_phone(phone_number: str)&lt;/div&gt;&lt;div&gt;edit_phone(old_number, new_number)&lt;/div&gt;&lt;div&gt;add_birthday(birthday: str)&lt;/div&gt;&lt;div&gt;__str__(): str&lt;/div&gt;" vertex="1">
           <mxGeometry height="100" width="210" x="-170" y="290" as="geometry" />
-        </mxCell>
-        <mxCell id="3SJbrGfwybPFazfpYGJO-1" parent="1" style="whiteSpace=wrap;html=1;verticalAlign=top;rounded=0;fontStyle=0;labelBackgroundColor=none;" value="" vertex="1">
-          <mxGeometry height="60" width="120" x="80" y="365" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
